@@ -1,0 +1,129 @@
+@import "style3.css";
+@import "smartphone.css";
+.nav{
+  background-color: black;
+  position: absolute;
+  height: 4.3em;
+  width: 100%;
+  margin-top: -1em;
+}
+a{
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 2px;
+}
+.fa-shopping-cart{
+  position: absolute;
+  margin-top: 2.6em;
+  margin-left: 8.5em;
+}
+.foodbox1{
+  height: 80px;
+  width: 129px;
+  margin-top: 3.7em;
+  margin-left: 0.2em;
+  background-color: lightgrey;
+  color: #000;
+  text-align:center;
+}
+.foodbox2{
+  height: 80px;
+  width: 129px;
+  margin-left: 10em;
+  background-color: lightgrey;
+  color: #000;
+  margin-top: -6.3em;
+  text-align: center;
+}
+.ingredient{
+  height: 100px;
+  width: 100%;
+  background-color: lightgrey;
+  color: #000;
+  text-align: center;
+}
+.nutrient{
+  height: 86px;
+  width: 100%;
+  background-color: lightgrey;
+  color: #000;
+  text-align: center;
+}
+.price{
+  height: 36px;
+  width: 5em;
+  background-color: lightgrey;
+  color: #000;
+  text-align: center;
+}
+input[type="text"]{
+  height: 32px;
+  width: 82px;
+  font-size: 15px;
+  border-radius: 8px;
+  border-color: #000;
+  margin-bottom: 20px;
+  background-color: lightgrey;
+  padding-left: 6px;
+  margin-left: 3em;
+  margin-top: -2.8em;
+  position: absolute;
+}
+button{
+  background-color: #000;
+  height: 45px;
+  width: 68px;
+  font-size: 12px;
+  border-width: 4px;
+  border-radius: 8px;
+  border-color: #fff;
+  color:#fff;
+  margin-left: 24em;
+  margin-top: -4em;
+  position: absolute;
+  cursor: pointer;
+}
+
+.button {
+  background-color: red;
+  color: #fff;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  margin: -46px 17em;
+  cursor: pointer;
+  border-width: 3px;
+  border-color:#000;
+  border-radius: 12px;
+  width: 8em;
+  height: 2.5em;
+  position: absolute;
+}
+.radiobutton{
+  padding-left: 19px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+.radio-position{
+  margin-top: -1em;
+}
+.dtabse{
+  width: 13em;
+  height: 7.2em;
+  background-color: lightgrey;
+  text-align: center;
+}
+.review{
+  width:10.4em;
+  height: 7.2em;
+  background-color: lightgrey;
+  position: absolute;
+  margin-left: 13.6em;
+  margin-top: -7.2em;
+  text-align: center;
+}
