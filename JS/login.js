@@ -1,4 +1,4 @@
-var modal = document.getElementById('id01');
+var modal = document.getElementById('Main-modal');
 
 window.onclick = function(event) {
     if (event.target == modal) {

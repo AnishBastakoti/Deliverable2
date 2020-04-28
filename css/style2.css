@@ -1,7 +1,3 @@
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
 .image2{
   margin-top: -9em;
   border-radius: 50%;
@@ -24,7 +20,7 @@ span.psw {
   padding-top: 60px;
 }
 
-.close {
+.closebtn {
   position: absolute;
   right: 1em;
   top: 0.3em;
@@ -33,9 +29,8 @@ span.psw {
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
-  color: red;
+.closebtn:hover {
+  color:#fff;
   cursor: pointer;
 }
 
@@ -71,10 +66,6 @@ a.button{
   border-bottom: 2px solid;
   margin-left: -4em;
 }
-.button:focus{
-  outline: none;
-}
-
 .button:hover{
   cursor: pointer;
   background-color: Black;
@@ -90,35 +81,13 @@ li{
   position: relative;
   margin-left: -1em;
 }
-a:link{
-  text-decoration: none;
-  color: #000;
-}
 
 ul.list{
   list-style-type: none;
   text-align: center;
 }
 
-ul.list.li{
-  width: 250px;
-  margin-bottom: 15px;
-}
-ul.list.li input{
-  width: 250px;
-  text-align: center;
-  padding: 8px 0px;
-  border: none;
-  background-color: #d3d3d3;
-}
-ul.list.li input[type="button"]{
-  background-color: #4690fb;
-  color: #fff;
-}
-ul.list.li:nth-child(5){
-  color:blue;
-}
-.animate {
+.animation{
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
 }

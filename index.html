@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style2.css">
+<link rel='icon' href="pictures/icon.png" type="image/x-icon">
 </head>
 <body>
   <div class="smartphone">
@@ -13,15 +14,15 @@
       <h1> Welcome to Foodmandu App</h1>
       <h2> For Hungry people like you</h2>
       <a href="login.html"><button> Sign up</button></a>
-      <p onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Already have an account? Log in</p>
+      <p onclick="document.getElementById('Main-modal').style.display='block'">Already have an account? Log in</p>
     </div>
   </div>
 </div>
-<div id="id01" class="modal">
-  <form class="modal-content animate" action="#" method="post">
+<div id="Main-modal" class="modal">
+  <form class="animation" action="#" method="post">
     <div class="form-container">
       <img src="pictures/img5.png" alt="Avatar" class="image2">
-          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <span onclick="document.getElementById('Main-modal').style.display='none'" class="closebtn">&times;</span>
             <ul class="list">
               <li><strong> Member Log in</strong></li>
               <li><input type="text" name ="User Name" placeholder="User Name"></li>
@@ -33,8 +34,6 @@
       </div>
   </form>
 </div>
-
-<script src="login.js"></script>
-
+<script src="JS/login.js"></script>
 </body>
 </html>

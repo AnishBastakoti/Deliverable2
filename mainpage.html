@@ -6,15 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style3.css">
   <link rel="stylesheet" href="css/style3a.css">
-  <link rel="stylesheet" href="aboutus.css">
+  <link rel="stylesheet" href="css/aboutus.css">
   <link rel='icon' href="pictures/icon.png" type="image/x-icon">
 </head>
 <body>
   <div class="smartphone">
     <div class="box2">
-    <h1>Foodmandu</h1>
+    <h1><span color="#111">Foodmandu</h1>
     <i class="fas fa-user-circle" style="font-size:33px"></i>
-
   </div>
   <div class="container">
   <img src="pictures/img4.jpg" alt="yogard">
@@ -25,10 +24,15 @@
       <li><a href="#" class="topright">Subway</a></li>
     </ul>
   <div class="About-app">
-    <p>About App</p>
+    <section>
+    <p>This is the foodmandu app where you can order food at anytime, anywhere.</p>
+    <p>And also you can record your food nutrient in this app for healthy and balanace diet.</p>
+  </section>
   </div>
   <div class="food">
-    <p>About Food</p>
+    <section>
+    <p>You can get varity of foods such as Indian, Thai, Chinese, Japnese, local as well as continental.</p>
+    <section>
   </div>
   <a href="#"><input type="Submit" name ="submit" value="Enter Nutrient Manually" class="button"></a>
   <div class="box1">
@@ -39,45 +43,62 @@
     </ul>
   </div>
   <div class="food-imge">
-    <p>Food Img</p>
+    <img src="pictures/vegan.jpg" alt="pizza", style="width:30%; height:10%">
+    <div class="img-cont">
+    <p>Vegan Pizza</p>
+  </div>
   </div>
   <div class="food-imge1">
-    <p>Food Img</p>
+    <img src="pictures/lamb.jpg" alt="Lamb", style="width:30%; height:10%">
+    <div class="img-cont">
+    <p>Lamb</p>
+  </div>
   </div>
   <div class="food-imge2">
-    <p>Food Img</p>
+    <img src="pictures/beef3.jpg" alt="Beef", style="width:30%; height:10%">
+    <div class="img-cont">
+    <p>Well Done Beef</p>
+  </div>
   </div>
 
   <div class="food-imge3">
-    <p>Food Img</p>
+    <img src="pictures/vegan2.jpeg" alt="Soup", style="width:30%; height:10%">
+    <div class="img-cont">
+    <p>Vegan Soup</p>
+  </div>
   </div>
 
   <div class="food-imge4">
-    <p>Food Img</p>
+    <img src="pictures/lamb3.jpg" alt="well-done Lamb", style="width:30%; height:10%">
+    <div class="img-cont">
+    <p>Well done Lamb</p>
+  </div>
   </div>
   <div class="food-imge5">
-    <p>Food Img</p>
+    <img src="pictures/beefwell1.jpg" alt="beefwell", style="width:30%; height:10%">
+    <div class="img-cont">
+    <p>Beef</p>
   </div>
-    <div id="main">
-        <span style="cursor:pointer" onclick="openNav()">About US</span>
+  </div>
+    <div id="mainbox">
+        <span onclick="openNav()" style="margin-top: 1em;position: absolute;width: 67px;">About US</span>
       </div>
-    <div id="mySidenav" class="sidenav">
+    <div id="sidenav1">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="about-section">
-    <h1>About Us Page</h1>
-    <p>Some text about who we are and what we do.</p>
+    <h1>About Developers</h1>
+    <p>Description about who we are and what we do.</p>
   </div>
-  <h2 style="text-align:center">Our Team</h2>
-  <div class="row">
+  <h2>Our Team</h2>
     <div class="column">
       <div class="card">
         <img src="pictures/Ans.jpg" class="pic" alt="Ans">
         <div class="container1">
           <h2>Sans</h2>
-          <p class="title">CEO & Founder</p>
-          <p>Some text that describes me.</p>
+          <p class="title">CEO Founder & Engineer</p>
+          <p>About Sanskritam.</p>
           <p>user@example.com</p>
-          <p><button class="buttn">Contact</button></p>
+          <button class="buttn">Contact Sans</button>
         </div>
       </div>
     </div>
@@ -87,10 +108,10 @@
         <img src="pictures/mra.jpeg" class="pic" alt="Maria">
         <div class="container1">
           <h2>Maria</h2>
-          <p class="title">Art Director</p>
-          <p>Some text that describes me.</p>
+          <p class="title"> Director & Graphic Designer</p>
+          <p>About Maria.</p>
           <p>user@domain.com</p>
-          <p><button class="buttn">Contact</button></p>
+          <button class="buttn">Contact Maria</button>
         </div>
       </div>
     </div>
@@ -100,16 +121,15 @@
         <img src="pictures/Nhut.jpg" class="pic" alt="Nhut">
         <div class="container1">
           <h2>Nhut Tran</h2>
-          <p class="title">Designer</p>
-          <p>Some text that describes me.</p>
+          <p class="title">UX Designer & Backend</p>
+          <p>About Nhut.</p>
           <p>user@example.com</p>
-          <p><button class="buttn">Contact</button></p>
+          <button class="buttn">Contact Nhut</button>
         </div>
       </div>
     </div>
   </div>
   </div>
-</div>
   <footer>
     <span><a href="https://www.facebook.com">SocialSite</a></span>
     <span><a href="T's and C's.pdf" target="blank">T's and C's</a></span>
@@ -117,7 +137,7 @@
     <span><a href="#">Contact Us</a></span>
   </footer>
   </div>
-<script src="aboutus.js"></script>
+<script src="JS/aboutus.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </body>
 </html>

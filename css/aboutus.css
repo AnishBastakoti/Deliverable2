@@ -1,44 +1,41 @@
-.sidenav {
-  width: 358px;
-  height: 520px;
+#sidenav1 {
+  width: 0;
+  height: 572px;
   position: fixed;
   z-index: 1;
   top: 0.2em;
   left: 0;
-  background-color: #111;
+  background-color: #000;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 14px;
   position:absolute;
+  overflow-x:hidden;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
+.closebtn:hover {
+  color: #fff;
+}
+
+a.closebtn {
   text-decoration: none;
-  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 39px;
+  margin-left: 50px;
   color: #818181;
   display: block;
   transition: 0.3s;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#main {
+#mainbox {
   transition: margin-left .5s;
   margin-top: -4em;
   padding: 0px;
   position:absolute;
   background-color: white;
+  transition: 0.5s;
 }
 
 .column {
@@ -49,11 +46,10 @@
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
-.about-section {
+.about-us{
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
@@ -64,19 +60,12 @@
   padding: 0 16px;
 }
 
-.container1::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .title {
   color: grey;
 }
 
 .buttn {
   border: none;
-  outline: 0;
   display: inline-block;
   padding: 8px;
   color: white;
@@ -92,8 +81,9 @@
 p{
   color:#fff;
 }
-h2{
+h2, h1{
   color: #fff;
+  text-align: center;
 }
 .pic{
   height:13em;

@@ -19,7 +19,7 @@
         <li><a href="#" class="topright">Subway</a></li>
       </ul>
     </div>
-    <i class='fas fa-shopping-cart' style='font-size:36px'></i>
+    <i onclick="openNav()"class='fas fa-shopping-cart' style='font-size:36px'></i>
     <div class="foodbox1">
       <p>Food Image</p>
     </div>
@@ -37,7 +37,11 @@
       <input type="text" placeholder="Promo code">
     </div>
     <a href="#"><button> Back</button></a>
-    <a href="#" class="button"> Order Food</a>
+    <div id="checkout" class="sidnav2">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
+      <p> your order will be placed over here</p>
+    </div>
+    <span onclick="openNav()"> Order food</span>
 
     <div class="radio-position">
     <label class="radiobutton"> Take away</label>
@@ -48,17 +52,19 @@
 
     <label class="radiobutton"> Delivery</label>
     <input type="radio" checked="checked" name="radio">
+    </div>
 
     <div class="dtabse">
-      <p> Record this in your Data Base</p>
-        <a>Yes: <input type="checkbox" id="myCheckbox"  onclick="myFunction1()"></a>
-        <a id="text1" style="display:none">This is not recorded in your database at the movement to record click the box!</a>
+      <h4> Record this in your Data Base</h4>
+      <a>Yes: <input type="checkbox" id="myCheckbox"  onclick="myFunction1()"></a>
+      <a id="text1" style="display:none">This is not recorded in your database at the movement to record click the box!</a>
       </div>
       <div class="review">
         <p> Food review will be over here</p>
       </div>
-  </div>
-<script src='checkbox.js'></script>
+</div>
+<script src="JS/checkout.js"></script>
+<script src="JS/checkbox.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </body>
 </html>
