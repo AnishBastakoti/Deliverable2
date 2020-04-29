@@ -46,3 +46,24 @@ label{
   background-color: #4CAF50;
   color: #fff;
 }
+.nutrient{
+  border: 8px;
+  background-color: green;
+  width:50%;
+  height: 39.6%;
+  padding: 6px;
+}
+h5{
+  color:#fff;
+  font-size: 18px;
+}
+
+.nutrient1{
+  border: 8px;
+  background-color: #333;
+  width:43%;
+  height: 39.8%;
+  margin-top: -17.7em;
+  margin-left: 12.9em;
+  padding: 6px;
+}
