@@ -96,6 +96,13 @@ img{
   margin-left: 6em;
   margin-top: -27em;
   position: absolute;
+  transition: 0.5s;
+  display: inline-block;
+}
+.button:hover{
+  background-color: #fff;
+  color: blue;
+  border-color: blue;
 }
 .fa-user-circle{
   position: absolute;
