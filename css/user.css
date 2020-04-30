@@ -9,12 +9,12 @@
 .user-img{
   background-repeat: no-repeat;
   width: 100%;
-  margin-left: 12.6em;
+  margin-left: 11.6em;
   margin-top: -6em
 }
 label{
   color: #fff;
-  padding: 4px 4px 4px 4px;
+  padding: 2px 0 2px 0;
 }
 .btn{
   background-color:#333;
@@ -50,8 +50,9 @@ label{
   border: 8px;
   background-color: green;
   width:50%;
-  height: 39.6%;
+  height: 41.6%;
   padding: 6px;
+  position: absolute;
 }
 h5{
   color:#fff;
@@ -61,9 +62,10 @@ h5{
 .nutrient1{
   border: 8px;
   background-color: #333;
-  width:43%;
-  height: 39.8%;
-  margin-top: -17.7em;
-  margin-left: 12.9em;
+  width:44%;
+  height: 41.8%;
+  margin-top: 0;
+  margin-left: 11.9em;
   padding: 6px;
+  position: absolute;
 }

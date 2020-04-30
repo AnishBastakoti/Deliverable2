@@ -35,7 +35,7 @@ a{
   margin-left: 10em;
   background-color: #333;
   color: #000;
-  margin-top: -7.3em;
+  margin-top: -7em;
   text-align: center;
 }
 .ingredient{
@@ -100,17 +100,17 @@ button{
 }
 .dtabse{
   width: 13em;
-  height: 7.2em;
+  height: 6.6em;
   background-color: lightgrey;
   text-align: center;
 }
 .review{
-  width:10.4em;
-  height: 7.2em;
+  width:9.4em;
+  height: 6.6em;
   background-color: #333;
   position: absolute;
-  margin-left: 13.6em;
-  margin-top: -7.2em;
+  margin-left: 13em;
+  margin-top: -6.5em;
   text-align: center;
 }
 
@@ -153,13 +153,13 @@ button{
 span{
   cursor: pointer;
   color: #fff;
-  margin-left: 13em;
-  margin-top: -2.5em;
+  margin-left: 12em;
+  margin-top: -2.2em;
   position: absolute;
   background-color: green;
   display: block;
   border-radius: 8px;
-  padding: 8px 8px 8px 8px;
+  padding: 8px 5px 9px 8px;
 }
 p{
   color:#fff;

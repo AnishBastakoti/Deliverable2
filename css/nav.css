@@ -19,10 +19,11 @@ li {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 7px;
   text-decoration: none;
   background-color: blue;
   border-radius: 8px;
+  margin-left: 1em;
 }
 
 li a:hover:not(.active) {
@@ -55,8 +56,8 @@ h1{
 .icon {
   display: block;
   position: absolute;
-  right: 21em;
-  top: 106px;
+  right: 19em;
+  top: 101px;
   width: 8%;
   height: 4%;
   text-align: center;

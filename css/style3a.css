@@ -22,7 +22,7 @@
 }
  .img-cont{
   position: absolute;
-  bottom: 37em;
+  bottom: 35em;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
@@ -68,9 +68,9 @@
 }
 footer{
   margin-top: -3em;
-  width: 79%;
+  width: 83%;
   height: 11%;
-  margin-left: 5em;
+  margin-left: 4.4em;
   position: relative;
   text-decoration: none;
 }
