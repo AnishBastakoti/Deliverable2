@@ -64,15 +64,15 @@ a{
 }
 input[type="text"]{
   height: 32px;
-  width: 82px;
+  width: 124px;
   font-size: 15px;
   border-radius: 8px;
   border-color: #000;
   margin-bottom: 20px;
   background-color: #fff;
-  padding-left: 6px;
+  padding-left: 15px;
   margin-left: 3em;
-  margin-top: -2.3em;
+  margin-top: 4.7em;
   position: absolute;
 }
 button{
@@ -115,7 +115,7 @@ button{
 }
 
 .sidnav2{
-  height: 81%;
+  height: 80%;
   width: 0;
   position:absolute;
   z-index: 1;
@@ -150,11 +150,11 @@ button{
   padding: 6px 6px 6px 6px;
   text-decoration: none;
 }
-span{
+ #checkout span{
   cursor: pointer;
-  color: #fff;
-  margin-left: 12em;
-  margin-top: -2.2em;
+  color: #000;
+  margin-left: 6em;
+  margin-top: 10.8em;
   position: absolute;
   background-color: green;
   display: block;
@@ -164,4 +164,17 @@ span{
 p{
   color:#fff;
   margin-top: 2em;
+}
+ span{
+ cursor: pointer;
+ text-align: center;
+ color: #fff;
+ margin-left: 7em;
+ margin-top: -2.2em;
+ position: absolute;
+ background-color: #555;
+ display: block;
+ border-radius: 8px;
+ width:34%;
+ padding: 8px 5px 9px 8px;
 }
